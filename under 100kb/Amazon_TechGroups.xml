@@ -1,0 +1,337 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>KyleB</LastAuthor>
+  <LastSaved>2019-02-08T11:02:13Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14025</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Script">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="54" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="219.75"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s62" ss:Width="162"/>
+   <Column ss:StyleID="s62" ss:Width="198"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="387.75"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="313.5"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="309"/>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell><Data ss:Type="String">SYMBIOSIS_TECHGROUPS</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Anything between straight brackets - i.e. [ ] - is a formatting tag. Do not change these tags and keep them in the same relative position in the text. Anything between curly brackets - i.e. { } - is a place where text or numbers will be inserted by the game. Do not change the tag, but feel free to change its position in the text to suit the localized text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SCENE ID</Data></Cell>
+    <Cell><Data ss:Type="String">TEXT ID</Data></Cell>
+    <Cell><Data ss:Type="String">ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">ALTERNATIVE ENGLISH STRING</Data></Cell>
+    <Cell><Data ss:Type="String">LOCALIZATION NOTES</Data></Cell>
+    <Cell><Data ss:Type="String">DEV TEAM / MISC NOTES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, text refers to a person that can either be male or female. If relevant for translation, please use the ‘localized string’ column for the male text and the ‘alternative localized string’ column for the female text.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="5"><Data ss:Type="String">In the text below, any inserted strings - anything of the form {text} - is replaced by an integer value for the thing described in the brackets. If the {text} is not followed by a unit - e.g. shields, hitpoints - the icon for the unit is inserted together with the integer. The same holds for symbols - e.g. '+', '%' - which are occasionally inserted together with the integer.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:Index="5"><Data ss:Type="String">For references to game terminology and in-world references, please check the glossary delivered as part of the documentation.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">AMAZON_SKILLS</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">GROUP_NAME</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Amazon</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROTECTIVE_GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Protective Growth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">PROTECTIVE_GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Summon thick roots to protect a friendly ground unit, healing it for {HealAmount}[hp/] and preventing it from moving for {Immoturn}[turn/].[br/]While immobilized in this manner, the unit gains +{ArmorProtection}[armor/] and regenerates {healthregen}% of its maximum [hp/] per turn.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">PROTECTIVE_GROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">PROPERTY_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Unit cannot move, has an extra {ArmorProtection}[armor/] and is recovering {healthregen}% of its maximum [hp/] each turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Primal Override</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="105">
+    <Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Attempt to [abilityred]Mind Control[/abilityred] a non-Mindless or non-Mechanical Tier I or Tier II Animal unit with a {PrimalChance}[StrengthBio/] strength chance.[br/]If the target is under the effect of [abilityred]Entangle[/abilityred] or [abilityred]Sleep[/abilityred] the strength chance increases to {PrimalSuperiorChance}[StrengthBio/].[br/]If mind controlled this way, the unit permanently comes under your control. If resisted, apply [abilityred]Insanity[/abilityred] instead.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Animal Control</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PRIMAL_OVERDRIVE</Data></Cell>
+    <Cell><Data ss:Type="String">PROP_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">This animal is under your control.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">NOURISHING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Nourishing Field Pylon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">NOURISHING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Deploys a healing pylon to the battlefield. The pylon cannot act or move. All friendly Biological and Cyborg units within {range} hexes will heal for {healing} when this ability is used as well as at the start of each turn.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">AMPLIFYING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Amplifying Field Pylon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">AMPLIFYING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Deploys an amplifying pylon to the battlefield. The pylon cannot act or move. Friendly Biological and Cyborg units adjacent to this pylon gain {damage} added damage while they remain adjacent to it. </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">LURING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Luring Field Pylon</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">LURING_FIELD_PYLON</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Deploys a wildlife lure pylon to the battlefield. The pylon cannot act or move. It summons a random Tier II wildlife unit at the start of each turn. The pylon lasts for {duration} or until destroyed.</Data></Cell>
+   </Row>
+   <Row ss:Index="23" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Rapid Reforestation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Transform the target sector into a Forest sector.[br/][br/][productioncol]Cannot be launched on Mountain or Enemy sectors.[/productioncol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">RAPID_REFORESTATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Our Biomancers have successfully planted our genetically-enhanced trees, rapidly transforming the entire sector into a forest we can call home.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Entangling Overgrowth</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Lowers [supply/] income of targeted enemy colony by {FoodIncomeReduction} for {EntanglingTurn}[turn/]. During this period, enemy units in that colony's domain spend an additional {MovePointCost} when moving.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">EFFECT_STRING</Data></Cell>
+    <Cell><Data ss:Type="String">{FoodIncomeReduction} income for {EntaglingTurn}[turn/].[br/]Enemy units spend {MovePointCost} more for each hex inside this domain for {EntaglingTurn}[turn/].</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Bionically-enhanced growth has invaded the target enemy colony. This aggressive overgrowth will ruin their crops and hamper the enemy's movement.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">The enhanced growth did not manage to gain a foothold. The population of the targeted enemy colony is suffering some unrest.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Our fields have been contaminated with some sort of aggressive growth that is ruining our crops and hampering our troops.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell><Data ss:Type="String">ENTANGLING_OVERGROWTH</Data></Cell>
+    <Cell><Data ss:Type="String">TARGET_FAILURE</Data></Cell>
+    <Cell><Data ss:Type="String">Our enemies attempted to imbed a species of aggressive plant in the colony, but it withered away before it could take hold. Our people, however, are not happy.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Introduce Predators</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Spawn a hostile Hopperhound spawner at the center of an empty target sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">INTRODUCE_PREADATORS</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Successfully deployed the predator lure in the target sector, attracting a brood of hopperhounds.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arcadian Restoration</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Target sector is terraformed into an Arcadian sector.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">ARCADIAN_RESTORATION</Data></Cell>
+    <Cell><Data ss:Type="String">CASTER_SUCCESS</Data></Cell>
+    <Cell><Data ss:Type="String">Our Biomancers have succesfully terraformed the target sector into an Arcadian sector.</Data></Cell>
+   </Row>
+   <Row ss:Index="41" ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ECOLOGICAL_CONSTRUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Ecological Construction</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ECOLOGICAL_CONSTRUCTION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Intelligent use of wood and local materials allows for green, cost-effective infrastructure development without having to harm or exploit nature.[br/][br/]Your colonies each gain {Production} for every forest sector within its domain.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PROGRESSIVE_CULTIVATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Progressive Cultivation</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PROGRESSIVE_CULTIVATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We can invest in genetically-modified crops that exploit fertile land to the fullest, making our harvests more bountiful.[br/][br/]{FoodIncomeIncrease} for every Arcadian sector connected to your colonies.</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">PLANETARY_CLEANUP</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Planetary Cleanup</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">PLANETARY_CLEANUP</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The fallen Union left many things behind, some of which are useful, but some are harmful to both nature and creatures alike. We see it as our duty to rid the world of these disruptive remnants and restore the world to its natural wonder.[br/][br/]Clearing World Hazards is {EnergyCostReduction} cheaper.[br/]The [abilityblue]Rapid Reforestation[/abilityblue] and [abilityblue]Arcadian Restoration[/abilityblue] strategic operations are now {EnergyCostStratOpReduction} cheaper.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">SELECTIVE_BREEDING</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Selective Breeding</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="75">
+    <Cell><Data ss:Type="String">SELECTIVE_BREEDING</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Our scientists invest time in breeding and perfecting the organisms we use for war. As a result, we have a wider variety of specimens to pick from, which will increase both their efficiency in combat and reduce the effort it takes to train them.[br/][br/]{RankIncrease} for all newly produced Animal and Mounted units. Their [production/] and [energy/] cost is also reduced by {ProductionCostReduction} when producing these.[br/][br/][firecol]Unit costs can never be lowered more than 75%.[/firecol]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ARBOREAL_HABITATION</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Arboreal Habitation</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">ARBOREAL_HABITATION</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">The Amazons are experts at integrating housing into forested areas without disturbing any of the wildlife or overpopulating their colonies.[br/][br/]In forest sectors, gain {ColonistSlots} Colonist slots in each resource type for a resource exploitation of that type. This applies to all colonies.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">NAME</Data></Cell>
+    <Cell><Data ss:Type="String">Bio Crusade</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="60">
+    <Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">We must focus our efforts in cleansing this planet of all machines and non-organics. They are unnatural beings that need to be destroyed in order to let nature prosper.[br/][br/]Amazon and Animal units deal {DamageIncrease} added damage when fighting Mechanical and Cyborg units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">SHORT_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">Amazon and Animal units deal {DamageIncrease} added damage when fighting Mechanical and Cyborg units.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">BIO_CRUSADE</Data></Cell>
+    <Cell><Data ss:Type="String">MOD_DESCRIPTION</Data></Cell>
+    <Cell><Data ss:Type="String">{DamageIncrease} added damage against Mechanical and Cyborg units.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Selected/>
+   <TopRowVisible>9</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>20</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
