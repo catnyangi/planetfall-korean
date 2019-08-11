@@ -62,6 +62,7 @@
    <Row ss:AutoFitHeight="0" ss:Height="30">
     <Cell><Data ss:Type="String">AMAZON_SKILL_GROUP</Data></Cell>
     <Cell><Data ss:Type="String">SKILL_SUBTITLE</Data></Cell>
+    <Cell><Data ss:Type="String">아마존 영웅 스킬</Data></Cell>
     <Cell><Data ss:Type="String">Amazon Hero Skill</Data></Cell>
     <Cell ss:Index="5"><Data ss:Type="String">Skill tree header.&#10;Amazon is an-game race.</Data></Cell>
    </Row>
